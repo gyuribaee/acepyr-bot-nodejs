@@ -1,0 +1,16 @@
+{
+  "name": "acepyr-prediction-market-bot",
+  "version": "1.0.0",
+  "description": "Acepyr Prediction Market Bot — Node.js (playwright)",
+  "type": "module",
+  "main": "acepyr-bot.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "^1.49.0"
+  },
+  "scripts": {
+    "start": "node acepyr-bot.js",
+    "dev": "node --watch acepyr-bot.js"
+  }
+}
